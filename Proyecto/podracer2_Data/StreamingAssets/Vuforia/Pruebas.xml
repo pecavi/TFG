@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="manifest-ar-venicewebsite" size="30.000000 30.000000"/>
+        <ImageTarget name="cube.Top" size="10.000000 10.000000"/>
+        <ImageTarget name="cube.Back" size="10.000000 10.000000"/>
+        <ImageTarget name="cube.Front" size="10.000000 10.000000"/>
+        <ImageTarget name="cube.Right" size="10.000000 10.000000"/>
+        <ImageTarget name="cube.Left" size="10.000000 10.000000"/>
+        <ImageTarget name="cube.Bottom" size="10.000000 10.000000"/>
+        <MultiTarget name="cube">
+            <Part name="cube.Left" translation="-5.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cube.Right" translation="5.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cube.Front" translation="0 0 5.0" rotation="AD: 1 0 0 0"/>
+            <Part name="cube.Back" translation="0 0 -5.0" rotation="AD: 0 1 0 180"/>
+            <Part name="cube.Top" translation="0 5.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cube.Bottom" translation="0 -5.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

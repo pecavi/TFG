@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 4a7cdd49a9d867840a6a82dceb8af6cc
+timeCreated: 1527618354
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 3 Point Beige
+    100002: 3 Point Beige 01.lxe (2)
+    100004: Camera
+    100006: DARTH
+    100008: //RootNode
+    100010: Directional Light
+    100012: Texture Group
+    100014: Texture Group (2)
+    100016: node_id12
+    100018: node_id12 1
+    100020: node_id12 2
+    100022: node_id12 3
+    100024: node_id12 4
+    100026: node_id12 5
+    100028: node_id12 6
+    100030: node_id4
+    400000: 3 Point Beige
+    400002: 3 Point Beige 01.lxe (2)
+    400004: Camera
+    400006: DARTH
+    400008: //RootNode
+    400010: Directional Light
+    400012: Texture Group
+    400014: Texture Group (2)
+    400016: node_id12
+    400018: node_id12 1
+    400020: node_id12 2
+    400022: node_id12 3
+    400024: node_id12 4
+    400026: node_id12 5
+    400028: node_id12 6
+    400030: node_id4
+    2000000: Camera
+    2100000: Sabel vit
+    2100002: darthvader_VaderConsolesFlickermat
+    2100004: darthvader_VaderCapemat
+    2100006: darthvader_VaderHelmetRimmat
+    2100008: darthvader_VaderBodyArmourmat
+    2100010: Laser
+    2100012: Sabel svart
+    2100014: Material_71
+    2100016: Material_40
+    2100018: Material_73
+    2100020: Material_75
+    2100022: Material_77
+    2100024: Material_79
+    2100026: Material_81
+    2300000: DARTH
+    2300002: node_id12
+    2300004: node_id12 1
+    2300006: node_id12 2
+    2300008: node_id12 3
+    2300010: node_id12 4
+    2300012: node_id12 5
+    2300014: node_id12 6
+    3300000: DARTH
+    3300002: node_id12
+    3300004: node_id12 1
+    3300006: node_id12 2
+    3300008: node_id12 3
+    3300010: node_id12 4
+    3300012: node_id12 5
+    3300014: node_id12 6
+    4300000: DARTH
+    4300002: node_id12
+    4300004: node_id12
+    4300006: node_id12
+    4300008: node_id12
+    4300010: node_id12
+    4300012: node_id12
+    4300014: node_id12
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Directional Light
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
