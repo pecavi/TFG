@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerNetwork : MonoBehaviour {
+public class PlayerNetwork : Photon.MonoBehaviour {
 
 
 	//[SerializeField] private MonoBehaviour[] playerControlScripts;
 
-	private PhotonView photonView;
+	//private PhotonView photonView;
 
     GameObject parent;
 
 	// Use this for initialization
-	void Start () {
+	void OnEnable () {
         //parent = transform.Find("ImageTarget").gameObject;
 //        transform.parent=parent.transform;
-		photonView=GetComponent<PhotonView>();
+		//photonView=GetComponent<PhotonView>();
 
 		
 	}

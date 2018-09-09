@@ -52,6 +52,12 @@ public class Menu : MonoBehaviour {
         SceneManager.LoadScene("diorama");
     }
 
+    public void loadRace()
+    {
+
+        SceneManager.LoadScene("miniRace");
+    }
+
     public void loadSignIn(){
         if(logIn.logged){
             SceneManager.LoadScene("stats");

@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/menu.unity
     guid: 453148af567536f459b4dbf2b3be2113
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/bb8.unity
     guid: 68780a5c096eb4d4fa46c19f669f8986
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/turret.unity
     guid: a95b91fd403277d4d88ea03b747cbbdf
   - enabled: 0
@@ -20,24 +20,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes 1/asteroids.unity
     guid: d82f9f38b07e63141b4afa4c5c563680
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/podracer.unity
     guid: f1d6a0f9a39dba74ab65e772f3046537
   - enabled: 1
     path: Assets/Scenes 1/miniRace.unity
     guid: 5e678efb7fb20d44cafebdcadcd1340a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/diorama.unity
     guid: c19cc0e31e5d5114d8ae75e7ed20416a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/regUser.unity
     guid: be8794e127f61a3408b2d33c2969786d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/login.unity
     guid: 674eb1044d3a0b54aacb14917d465590
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/sign-in.unity
     guid: 231a27b1f5247fb4fa37b9f4fdb2097c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes 1/stats.unity
     guid: 4b6049349df1c6741995389a7cc41540

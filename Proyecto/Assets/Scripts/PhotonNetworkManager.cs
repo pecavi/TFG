@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Vuforia;
 
-public class PhotonNetworkManager : MonoBehaviour {
+public class PhotonNetworkManager : Photon.MonoBehaviour {
 
 	public GameObject imageTarget;
 
 	GameObject clone;
-	PhotonView photonView;
 
 	static int cloneNumber=1;
 
@@ -20,8 +20,9 @@ public class PhotonNetworkManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//this.gameObject.AddComponent<PhotonView>();
-		photonView = PhotonView.Get(this);
+		MixedRealityController.Instance.SetMode(MixedRealityController.Mode.HANDHELD_AR);
+ 
+		VuforiaARController.Instance.SetWorldCenterMode(VuforiaARController.WorldCenterMode.FIRST_TARGET);
 		PhotonNetwork.ConnectUsingSettings("racer");
 	}
 
@@ -38,11 +39,11 @@ public class PhotonNetworkManager : MonoBehaviour {
 	public virtual void OnJoinedRoom(){
 		Debug.Log("Joined to room");
 		Debug.Log(photonView);
-		//clone = PhotonNetwork.Instantiate(player.name,spawnPoint.position,Quaternion.identity,0);
+		clone = PhotonNetwork.Instantiate(player.name,spawnPoint.position,Quaternion.identity,0);
 		//clone.transform.parent=imageTarget.gameObject.transform;
 		//Debug.Log("Clon: "+clone.name);
-		//PhotonNetwork.player.NickName="Pedro";
-		photonView.RPC("InstantiatePlayer",PhotonTargets.All);
+		PhotonNetwork.player.NickName="Pedro";
+		//photonView.RPC("InstantiatePlayer",PhotonTargets.All);
 		nickname.text=PhotonNetwork.player.NickName;
 	}
 	

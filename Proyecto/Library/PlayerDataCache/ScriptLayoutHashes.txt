@@ -1,6 +1,15 @@
 Android
 SceneListBegin?
+Assets/Scenes 1/menu.unity
+Assets/Scenes 1/bb8.unity
+Assets/Scenes 1/turret.unity
+Assets/Scenes 1/podracer.unity
 Assets/Scenes 1/miniRace.unity
+Assets/Scenes 1/diorama.unity
+Assets/Scenes 1/regUser.unity
+Assets/Scenes 1/login.unity
+Assets/Scenes 1/sign-in.unity
+Assets/Scenes 1/stats.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelReset
 82c8c8940439d24517b71a242f62fbc3 Assembly-CSharp.dll:.HighlightOwnedGameObj
