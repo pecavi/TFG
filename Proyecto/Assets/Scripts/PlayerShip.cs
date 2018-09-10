@@ -39,6 +39,7 @@ public class PlayerShip : MonoBehaviour {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             //Exit();
             deathMenu.SetActive(true);
+            Time.timeScale = 0;
         }
 
     }

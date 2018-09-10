@@ -16,7 +16,7 @@ public class GameOverMenu : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		score.text="2224";
+		//score.text="2224";
 		achievedScore.text="Puntos: "+score.text;
 		Debug.Log("Score: "+score.text);
 		if(Usuario.getScore(gameMode)<int.Parse(score.text)){
@@ -24,6 +24,7 @@ public class GameOverMenu : MonoBehaviour {
 		}
 		
 	}
+	
 	
 	IEnumerator uploadScore(){
 		Usuario.setScore(gameMode,int.Parse(score.text));
