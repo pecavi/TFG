@@ -207,7 +207,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 69f05d94227d8676c14071b3dbe1b417 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PauseMenu
+f086b2d95fe261fb1aaaf02b5dac6a63 Assembly-CSharp.dll:.PauseMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DragRigidbody
 75d2fe170f6325c56c4a810c6ff64ba0 Assembly-CSharp.dll:.DemoOwnershipGui
 e0d7152ecf22ae2a833ea3b9acd8d0a2 Assembly-CSharp.dll:.WorkerInGame

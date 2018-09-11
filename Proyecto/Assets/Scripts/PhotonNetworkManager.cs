@@ -45,12 +45,19 @@ public class PhotonNetworkManager : Photon.MonoBehaviour {
 		PhotonNetwork.player.NickName="Pedro";
 		//photonView.RPC("InstantiatePlayer",PhotonTargets.All);
 		nickname.text=PhotonNetwork.player.NickName;
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 		connectedText.text=PhotonNetwork.connectionStateDetailed.ToString();
+
+		if(PhotonNetwork.playerList.Length<2){
+			Time.timeScale=0;
+		}else{
+			Time.timeScale=1;
+		}
 	}
 
 	[PunRPC]void InstantiatePlayer(){
